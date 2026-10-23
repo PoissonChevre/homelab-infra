@@ -1,0 +1,11 @@
+# Secrets : jamais dans Git (copie dans kDrive-safe/homelab-secrets)
+secrets.yaml
+talosconfig
+controlplane.yaml
+worker*.yaml
+!talos/patches/*.yaml
+kubeconfig
+*.tfstate*
+.terraform/
+scripts/watering.env
+*.log
